@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 900px;
+    background-color: hsla(0, 100%, 50%, 0.3);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+}
+
+#info,
+#headline{
+    text-align: center;
+    padding: 10px;
+}
+
+#headline{
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+#tip_cal{
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.form-label {
+    font: small-caps bold 12px/30px Georgia, serif;
+    font-size: 1.2rem;
+}
+
+.form-input{
+    border: 3px solid black ;
+    border-radius: 5px;
+}
