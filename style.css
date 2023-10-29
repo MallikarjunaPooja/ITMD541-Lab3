@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 900px;
+    min-height: 600px;
     background-color: hsla(0, 100%, 50%, 0.3);
     background-size: 100% 40%;
     background-repeat: no-repeat;
@@ -17,6 +17,7 @@ body {
 #headline{
     text-align: center;
     padding: 10px;
+    max-width: 90%; 
 }
 
 #headline{
@@ -28,6 +29,7 @@ body {
     background-color: white;
     padding: 50px;
     border-radius: 10px;
+    max-width: 500px; 
 }
 
 form {
@@ -44,4 +46,15 @@ form {
 .form-input{
     border: 3px solid black ;
     border-radius: 5px;
+    width: 100%; 
+}
+
+@media (max-width: 768px) {
+    #tip_cal {
+        padding: 20px;
+    }
+
+    form {
+        grid-template-columns: 1fr;
+    }
 }
